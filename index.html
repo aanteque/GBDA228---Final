@@ -100,24 +100,42 @@ a {
   font-weight: 600;
   font-style: normal;
   color: #462A2A;
-  }
+}
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+li  {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover {
+  background-color: #111;
+}
 
 
 </style>
   
+
+
 </head>
 <body>
 
-<div class="writebig">test</div>
-<div class="writeSmallP">test</div>
-<div class="writeSmallW">test</div>
-  
-
-<a href="https://www.w3schools.com">Home</a>
-<h1>
-  Coding makes me cry
-  </h1>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
 
 </body>
 </html>
